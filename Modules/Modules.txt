@@ -1,0 +1,53 @@
+🧠 What Are Modules?
+
+A module is just a Python file (.py) that contains functions, variables, or classes — which you can reuse in other Python files.
+
+Think of it like a toolbox 📦. Instead of rewriting code, you import it.
+
+
+🧱 2 Types of Modules:
+✅ 1. Built-in modules (already included in Python)
+
+    Examples: math, random, datetime, os
+
+✅ 2. Custom modules (your own .py files)
+
+    You create and import them.
+
+
+
+
+
+    import math
+
+print(math.sqrt(16))   # ➝ 4.0
+print(math.pow(2, 3))  # ➝ 8.0
+
+
+Or import specific parts:
+
+    from math import sqrt, pow
+
+    print(sqrt(25))  # ➝ 5.0
+
+
+
+
+
+how to create or make a custom module
+ 
+
+ step1: create a file called tool.py
+
+                def greet(name):
+                    return f"Hello, {name}!"
+
+                def add(x, y):
+                    return x + y
+               
+Step 2: In another file, import it:
+
+                import tools
+
+                print(tools.greet("Devansh"))  # ➝ Hello, Devansh!
+                print(tools.add(5, 3))         # ➝ 8
