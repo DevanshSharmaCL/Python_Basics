@@ -26,3 +26,9 @@ def febonaci(n):
         return febonaci(n-1) + febonaci(n-2)
 
 print(febonaci(15))
+
+
+
+#basically this is the recussion 
+#a programming technique where a function call itself to solve a problem 
+#jab tak solution na nikal jaye , jab tak function chalta raheta hai 
